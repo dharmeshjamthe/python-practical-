@@ -1,7 +1,5 @@
-# List of numbers
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-# Using a for loop
 total_sum_loop = 0
 for number in numbers:
     total_sum_loop += number
