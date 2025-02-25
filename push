@@ -1,0 +1,20 @@
+# Define the list of strings
+strings = ["apple", "banana", "cherry", "date", "elderberry"]
+
+# Define the search string
+search_string = "cherry"
+
+# Initialize a flag to indicate if the string is found
+found = False
+
+# Use a for loop to check if the string exists in the list
+for string in strings:
+    if string == search_string:
+        found = True
+        break
+
+# Print the result
+if found:
+    print("Found")
+else:
+    print("Not Found")
